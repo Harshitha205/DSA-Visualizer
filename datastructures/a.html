@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Array Visualization</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<nav>
+    <div class="nav-content">
+        <a href="#" class="logo">DataStructures</a>
+        <ul class="nav-links">
+            <li><a href="\index.html">Home</a></li>
+            <li><a href="stack.html" >Stack</a></li>
+            <li><a href="a.html"class="active">Array</a></li>
+            <li><a href="queue.html">Queue</a></li>
+            
+        </ul>
+    </div>
+</nav>
+<body>
+    <div class="container">
+        <h1>Interactive Array</h1>
+        <div class="controls">
+            <input type="text" id="elementInput" placeholder="Enter an element">
+            <button onclick="addElement()">Add Element</button>
+            <button onclick="removeElement()">Remove Element</button>
+        </div>
+        <div id="arrayContainer" class="array-container">
+            
+        </div>
+
+        <div class="container-body">
+            <div class="stack">
+                <div class="main-stack-bucket"></div>
+            </div>
+    
+    
+            <div class="info">
+                <div class="info-container">
+                    
+                        <div class="sec1">
+                            <h3>Front of Array:-</h3>
+                            <button class="box"></button>
+                        </div>
+                        <div class="sec2">
+                            <h3>Last added Item:-</h3>
+                            <button class="box"></button>
+                        </div>
+                        <div class="sec3">
+                            <h3>Last removed Item:-</h3>
+                            <button class="box"></button>
+                        </div>
+                        <!-- <div class="sec3">
+                            <h3>Size of the Queue:-</h3>
+                            <button class="box"></button>
+                        </div> -->
+                        <div class="sec4">
+                            <h3>Size of the Array:-</h3>
+                            <button class="box"></button>
+                        </div>
+            
+                        <div class="message-box">
+                            <h2>Message Box</h2>
+                            <div id="messageContent" class="message"></div>
+                        </div>
+                        
+                    </div>
+                  </div>
+              </div>
+              
+           
+        </div>
+    </div>
+    <script src="a.js"></script>
+</body>
+</html>

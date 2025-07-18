@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Search Visualization</title>
+    <link rel="stylesheet" href="ls.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="\index.html">Home</a></li>
+           
+            <li><a href="bs.html">Binary Search</a></li>
+            
+            <li><a href="ls.html" class="active">Linear Search</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Linear Search Visualization</h1>
+        <div id="controls">
+            <label for="arraySize">Array Size:</label>
+            <input type="number" id="arraySize" min="4" max="20" value="8">
+            <button onclick="generateArray()">Generate Array</button>
+            <label for="searchValue">Search Value:</label>
+            <input type="number" id="searchValue">
+            <button onclick="startSearch()">Start Search</button>
+            <button onclick="stepSearch()" id="stepButton" disabled>Step</button>
+            <button onclick="resetSearch()" id="resetButton" disabled>Reset</button>
+        </div>
+
+        <div id="array-container"></div>
+
+        <div id="message-box">
+            <h3>Messages</h3>
+            <div id="messages"></div>
+        </div>
+    </div>
+
+    <script src="ls.js"></script>
+</body>
+</html>
