@@ -290,7 +290,7 @@ header {
     justify-content: space-between;
 }
 
-.massage-box {
+.message-box {
     height: 180px;
     width: 400px;
     margin-top: 30px;
@@ -302,22 +302,22 @@ header {
     justify-content: space-between;
 }
 
-.massage-box h2 {
+.message-box h2 {
     text-align: center;
     font-weight: 600;
 }
 
-.massage {
+.message {
     height: 160px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 30px;
 }
-.error-massage {
-    animation: errorMassage 0.4s infinite linear;
+.error-message {
+    animation: errorMessage 0.4s infinite linear;
 }
-@keyframes errorMassage {
+@keyframes errorMessage {
     0% {
         background-color: bisque;
     }
