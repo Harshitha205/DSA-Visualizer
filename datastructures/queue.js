@@ -82,4 +82,8 @@ function getRandomColor() {
     return color;
 }
 
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', updateQueueDisplay);
+=======
+document.addEventListener('DOMContentLoaded', updateQueueDisplay);
+>>>>>>> ca64f24190338192351cadbf19f1cfc32875b2e6

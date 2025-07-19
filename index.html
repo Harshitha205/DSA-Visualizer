@@ -194,4 +194,200 @@
 
     <script src="script.js"></script>
 </body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>DSA Visualizer</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the DSA Visualizer!</h1>
+        <p>Explore data structures and algorithms through interactive animations.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li> <li class="dropdown">
+                <a href="#">Data Structures</a>
+                <ul class="dropdown-content">
+                    <li><a href="datastructures/a.html">Arrays</a></li>
+                    <li><a href="linkedlists/singly.html">Linked Lists</a></li>
+                    <li><a href="datastructures/stack.html">Stacks</a></li>
+                    <li><a href="datastructures/queue.html">Queues</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Sorting Algorithms</a>
+                <ul class="dropdown-content">
+                    <li><a href="sorting/m.html">Merge Sort</a></li>
+                    <li><a href="sorting/i.html">Insertion Sort</a></li>
+                    <li><a href="sorting/b.html">Bubble Sort</a></li>
+                    <li><a href="sorting/q.html">Quick Sort</a></li>
+                    <li><a href="sorting/s.html">Selection Sort</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Searching Algorithms</a>
+                <ul class="dropdown-content">
+                    <li><a href="searching/ls.html">Linear Search</a></li>
+                    <li><a href="searching/bs.html">Binary Search</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="data-structures">
+        <h2>Data Structures</h2>
+        <p>Learn about and visualize different data structures like arrays, linked lists, stacks, queues, and more.</p>
+        <div class="card-section">
+
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-image" src="images/ar.png" alt="Array">
+                    <h2 class="card-title">Array</h2>
+                    <p class="card-description">A collection of elements stored at contiguous memory locations, allowing for constant-time access to elements.</p>
+                    <p class="card-origin">Data Structure</p>
+                    <div class="button-container">
+                        <a href="datastructures/a.html" class="explore-button">EXPLORE</a> <a href="https://en.wikipedia.org/wiki/Array_data_structure" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-image" src="images/qu.png" alt="Queue">
+                    <h2 class="card-title">Queue</h2>
+                    <p class="card-description">A first-in-first-out (FIFO) data structure with enqueue and dequeue operations.</p>
+                    <p class="card-origin">Data Structure</p>
+                    <div class="button-container">
+                        <a href="datastructures/queue.html" class="explore-button">EXPLORE</a> <a href="https://en.wikipedia.org/wiki/Queue_(abstract_data_type)" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-image" src="images/sl.png" alt="Linked List">
+                    <h2 class="card-title">Linked List</h2>
+                    <p class="card-description">A linear data structure where elements are linked using pointers, allowing for efficient insertion and deletion.</p>
+                    <p class="card-origin">Data Structure</p>
+                    <div class="button-container">
+                        <a href="linkedlists/singly.html" class="explore-button">EXPLORE</a> <a href="https://en.wikipedia.org/wiki/Linked_list" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-image" src="images/st.png" alt="Stack">
+                    <h2 class="card-title">Stack</h2>
+                    <p class="card-description">A last-in-first-out (LIFO) data structure with push and pop operations.</p>
+                    <p class="card-origin">Data Structure</p>
+                    <div class="button-container">
+                        <a href="datastructures/stack.html" class="explore-button">EXPLORE</a> <a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="algorithms">
+        <h2>Algorithms</h2>
+        <p>Explore and visualize various sorting, searching, backtracking, and graph algorithms.</p>
+        <div class="card-section">
+
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-image" src="images/b.png" alt="Bubble Sort">
+                    <h2 class="card-title">Bubble Sort</h2>
+                    <p class="card-description">A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order.</p>
+                    <p class="card-origin">Sorting Algorithm</p>
+                    <div class="button-container">
+                        <a href="sorting/b.html" class="explore-button">EXPLORE</a> <a href="https://en.wikipedia.org/wiki/Bubble_sort" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-image" src="images/q.png" alt="Quick Sort">
+                    <h2 class="card-title">Quick Sort</h2>
+                    <p class="card-description">An efficient, divide-and-conquer sorting algorithm that uses pivoting to partition the array.</p>
+                    <p class="card-origin">Sorting Algorithm</p>
+                    <div class="button-container">
+                        <a href="sorting/q.html" class="explore-button">EXPLORE</a> <a href="https://en.wikipedia.org/wiki/Quicksort" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-image" src="images/m.png" alt="Merge Sort">
+                    <h2 class="card-title">Merge Sort</h2>
+                    <p class="card-description">A divide-and-conquer algorithm that divides the array into smaller subarrays, sorts them, and then merges them.</p>
+                    <p class="card-origin">Sorting Algorithm</p>
+                    <div class="button-container">
+                        <a href="sorting/m.html" class="explore-button">EXPLORE</a> <a href="https://en.wikipedia.org/wiki/Merge_sort" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-image" src="images/i.png" alt="Insertion Sort">
+                    <h2 class="card-title">Insertion Sort</h2>
+                    <p class="card-description">A simple sorting algorithm that builds the final sorted array one item at a time.</p>
+                    <p class="card-origin">Sorting Algorithm</p>
+                    <div class="button-container">
+                        <a href="sorting/i.html" class="explore-button">EXPLORE</a> <a href="https://en.wikipedia.org/wiki/Insertion_sort" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-image" src="images/sl.png" alt="Selection Sort">
+                    <h2 class="card-title">Selection Sort</h2>
+                    <p class="card-description">A simple sorting algorithm that repeatedly selects the smallest element from the unsorted portion and puts it at the beginning.</p>
+                    <p class="card-origin">Sorting Algorithm</p>
+                    <div class="button-container">
+                        <a href="sorting/s.html" class="explore-button">EXPLORE</a> <a href="https://en.wikipedia.org/wiki/Selection_sort" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-image" src="images/li.png" alt="Linear Search">
+                    <h2 class="card-title">Linear Search</h2>
+                    <p class="card-description">A simple search algorithm that checks each element of the list until a match is found or the whole list has been searched.</p>
+                    <p class="card-origin">Searching Algorithm</p>
+                    <div class="button-container">
+                        <a href="searching/ls.html" class="explore-button">EXPLORE</a> <a href="https://en.wikipedia.org/wiki/Linear_search" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-image" src="images/bin.png" alt="Binary Search">
+                    <h2 class="card-title">Binary Search</h2>
+                    <p class="card-description">An efficient algorithm for searching a sorted array by repeatedly dividing the search interval in half.</p>
+                    <p class="card-origin">Searching Algorithm</p>
+                    <div class="button-container">
+                        <a href="searching/bs.html" class="explore-button">EXPLORE</a> <a href="https://en.wikipedia.org/wiki/Binary_search_algorithm" target="_blank" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
 </html>
