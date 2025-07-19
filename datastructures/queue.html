@@ -1,49 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+    <title>
+        Queue Visualization
+    </title>
     <link rel="stylesheet" href="queue.css">
-    <title>Queue Visualization</title>
-
 </head>
-<nav>
-    <div class="nav-content">
-        <a href="#" class="logo">DataStructures</a>
-        <ul class="nav-links">
-            <li><a href="\index.html">Home</a></li>
-            <li><a href="stack.html">Stack</a></li>
-            <li><a href="a.html">Array</a></li>
-            <li><a href="queue.html" class="active">Queue</a></li>   
-         
-        </ul>
-    </div>
-</nav>
 <body>
+    <nav>
+        <div class="nav-content">
+            <a href="#" class="logo">DataStructures</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="stack.html">Stack</a></li>
+                <li><a href="a.html">Array</a></li>
+                <li><a href="queue.html" class="active">Queue</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="container">
         <header>
             <h3 class="title">Queue Visualizer</h3>
         </header>
-    <!-- Queue-related elements (input, buttons, and display) -->
-     <div class="container-header">
-    <input type="number" id="inputNumber" placeholder="Enter a number">
-    <button onclick="pushToQueue()">Push</button>
-    <button onclick="popFromQueue()">Pop</button>
-    <button onclick="clearQueue()">Clear Queue</button>
-    <div class="bob"></div>
-    <div class="queue-display" id="queueDisplay"></div>
-</div>
 
-    <div class="container-body">
-        <div class="stack">
-            <div class="main-stack-bucket"></div>
+        <div class="container-header">
+            <input type="number" id="inputNumber" placeholder="Enter a number">
+            <button onclick="pushToQueue()">Push</button>
+            <button onclick="popFromQueue()">Pop</button>
+            <button onclick="clearQueue()">Clear Queue</button>
+            <div class="bob"></div>
+            <div class="queue-display" id="queueDisplay"></div>
         </div>
 
+        <div class="container-body">
+            <div class="stack">
+                <div class="main-stack-bucket"></div>
+            </div>
 
-        <div class="info">
-            <div class="info-container">
-                
+            <div class="info">
+                <div class="info-container">
                     <div class="sec1">
                         <h3>Front of Queue:-</h3>
                         <button class="box"></button>
@@ -56,29 +55,93 @@
                         <h3>Last Popped Item:-</h3>
                         <button class="box"></button>
                     </div>
-                    <!-- <div class="sec3">
-                        <h3>Size of the Queue:-</h3>
-                        <button class="box"></button>
-                    </div> -->
                     <div class="sec4">
                         <h3>Size of the Queue:-</h3>
                         <button class="box"></button>
                     </div>
-        
-                    <div class="message-box">
-                        <h2>Message Box</h2>
-                        <div class="message"></div>
-                    
                 </div>
-              </div>
-          </div>
-          
-       
-    </div>
-    </div>
-</div>
+            </div>
+        </div>
 
+        <div class="message-box">
+            <h2>Message Box</h2>
+            <div class="message"></div>
+        </div>
 
-     <script src="queue.js"></script>
+    </div>
+    <script src="queue.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Queue Visualization
+    </title>
+    <link rel="stylesheet" href="queue.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <a href="#" class="logo">DataStructures</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="stack.html">Stack</a></li>
+                <li><a href="a.html">Array</a></li>
+                <li><a href="queue.html" class="active">Queue</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <header>
+            <h3 class="title">Queue Visualizer</h3>
+        </header>
+
+        <div class="container-header">
+            <input type="number" id="inputNumber" placeholder="Enter a number">
+            <button onclick="pushToQueue()">Push</button>
+            <button onclick="popFromQueue()">Pop</button>
+            <button onclick="clearQueue()">Clear Queue</button>
+            <div class="bob"></div>
+            <div class="queue-display" id="queueDisplay"></div>
+        </div>
+
+        <div class="container-body">
+            <div class="stack">
+                <div class="main-stack-bucket"></div>
+            </div>
+
+            <div class="info">
+                <div class="info-container">
+                    <div class="sec1">
+                        <h3>Front of Queue:-</h3>
+                        <button class="box"></button>
+                    </div>
+                    <div class="sec2">
+                        <h3>Last Pushed Item:-</h3>
+                        <button class="box"></button>
+                    </div>
+                    <div class="sec3">
+                        <h3>Last Popped Item:-</h3>
+                        <button class="box"></button>
+                    </div>
+                    <div class="sec4">
+                        <h3>Size of the Queue:-</h3>
+                        <button class="box"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-box">
+            <h2>Message Box</h2>
+            <div class="message"></div>
+        </div>
+
+    </div>
+    <script src="queue.js"></script>
 </body>
 </html>
