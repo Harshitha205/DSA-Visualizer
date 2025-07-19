@@ -21,7 +21,7 @@ The system is built using:
 * **Visualization Libraries:** D3.js, p5.js
 
 **System Requirements:**
-* **Processor:** Intel i3
+* **Processor:** Any modern processor 
 * **Memory (RAM):** 4GB
 * **Operating System:** Windows 10, macOS 11, Chrome OS
 * **Internet Connection:** 10Mbps
